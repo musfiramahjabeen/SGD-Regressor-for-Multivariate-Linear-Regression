@@ -25,7 +25,7 @@ Step 7: Inverse transform predictions and evaluate the model using the mean squa
 Step 6:Stop the program.
 
 ## Program:
-```python
+```py
 /*
 Program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor.
 Developed by: MUSFIRA MAHJABEEN M
@@ -66,9 +66,7 @@ Y_pred=scaler_Y.inverse_transform(Y_pred)
 Y_test=scaler_Y.inverse_transform(Y_test)
 mse=mean_squared_error(Y_test,Y_pred)
 print("Mean Squared Error:",mse)
-print("\nPredictions\n",Y_pred[:5])
-
-
+print("\nPredictions\n",Y_pred[:5]
 ```
 
 ## Output:
